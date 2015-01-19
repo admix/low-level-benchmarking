@@ -1,29 +1,40 @@
-# Object files
+# C++ Ignores Object files
 *.o
 *.ko
 *.obj
 *.elf
-
-# Precompiled Headers
 *.gch
 *.pch
 
-# Libraries
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
+
+# JAVA Igrnores
+dist
+.settings
+.project
+.classpath
+*.class
+*target*
+
+## Generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+/bin/
