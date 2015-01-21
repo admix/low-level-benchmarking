@@ -1,11 +1,16 @@
 package ca.admix.application;
 
+import java.util.concurrent.TimeUnit;
+
 public class Application {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello");
-		SieveJava(10);
+//		System.out.println("Hello");
+//		Stopwatch timer = Stopwatch.createUnstarted();
+//		timer.start();
+//		SieveJava(10);
+//		log.debug("Bulk Insert for single took: {} ms", timer.stop().elapsed(TimeUnit.MILLISECONDS));
 	}
 	
 	private static void SieveJava(int maxNum) {
