@@ -1,4 +1,4 @@
-/* Nodejs version */
+/* Low level performance benchmarking using nodejs */
 
 function SieveRegularArray(maxNum) {
     var i;
@@ -57,11 +57,11 @@ function SieveTypedArray(maxNum) {
 }
 
 console.time("reg");
-SieveRegularArray(100000);
+SieveRegularArray(1000000);
 console.timeEnd("reg");
 console.time("buffer");
-SieveBuffer(100000);
+SieveBuffer(1000000);
 console.timeEnd("buffer");
 console.time("typed");
-SieveTypedArray(100000)
+SieveTypedArray(1000000)
 console.timeEnd("typed");
