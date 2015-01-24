@@ -2,34 +2,33 @@
 package main
 
 import (
-	"fmt",
-	"testing"
+	"fmt";
+	"time";
 )
 
-func regularArray(maxNum int) {
-	var i int = 2
+func main() {
+	fmt.Println("Low level performance using Go")
+	t := time.Now()
+	regularArray(1000000)
+	s := time.Now()
+	fmt.Println("Time spent: %v", s.Sub(t))
+}
+
+func regularArray(maxNum int) int{
 	var j int
 
-	var Data = make([]int,elems)
+	var Data = make([]bool,maxNum+1)
 	// var Data [maxNum + 1]bool;
 	for i := 2; i <= maxNum; i++ {
 		Data[i] = true
-		fmt.Println(i)
 	}
-	i = 2
-	for i; i <= maxNum; i++ {
+
+	for i := 2;i <= maxNum; i++ {
 		if Data[i] {
 			for j = i + i; j <= maxNum; j += i {
 				Data[j] = false
 			}
 		}
 	}
-	fmt.Println(Data)
-}
-
-func main() {
-	fmt.Println("Low level performance using Go")
-	t := testing.Benchmark(regularArray(100000))
-	regularArray(100000)
-	fmt.Println("Time spent %f", t)
+	return 0
 }
