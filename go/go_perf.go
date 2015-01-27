@@ -12,6 +12,8 @@ func main() {
 	regularArray(1000000)
 	s := time.Now()
 	fmt.Println("Time spent: %v", s.Sub(t))
+	var array = []int{2, 1, 4, 5, 3}
+	fmt.Println(insertionSort(array))
 }
 
 func regularArray(maxNum int) int{
@@ -31,4 +33,13 @@ func regularArray(maxNum int) int{
 		}
 	}
 	return 0
+}
+
+// Insertion sort
+func insertionSort(array []int) {
+	for i := 1; i < len(array); i++ {
+		for j := i; j > 0 && array[j] < array[j-1]; j-- {
+			algoutils.Swap(array, j, j-1)
+		}
+	}
 }
