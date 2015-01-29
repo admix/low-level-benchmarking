@@ -10,6 +10,14 @@ Showing time difference using different languages and different algorithms, howe
 * Java
 * Go
 * Javascript
+  * nodejs
+    * Regular loop - 115ms
+    * Buffer       - 10ms
+    * TypedArray   - 11ms
+  * iojs
+    * Regular loop - 
+    * Buffer       - 
+    * TypedArray   - 
 * Dart
 
 
