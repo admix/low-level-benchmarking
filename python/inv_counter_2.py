@@ -2,6 +2,7 @@
 # Usage: python CountInversions.py filename.txt
 
 import sys
+import time
 
 def main():
     file = open(sys.argv[1], "r")
@@ -68,4 +69,6 @@ def SortAndCountInversions(array):
 
 
 if __name__ == "__main__":
+    start_time = time.time()
     main()
+    print("--- %s seconds ---" % (time.time() - start_time))
