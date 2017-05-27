@@ -1,6 +1,7 @@
 # O(n log n)
 import time
 
+
 def count_inversion(lst):
     return merge_count_inversion(lst)[1]
 

@@ -2,23 +2,22 @@
 Bench marking different languages with low level algorithms
 
 # Time Consumption
-Showing time difference using different languages and different algorithms, however using 1 same machine for all the tests. 
-3.0 Ghz, 16Gb, Dual Core
+Showing time difference using different languages and different algorithms.
 
-## Prime Numbers
+# Hardware
+3.0 Ghz, 16Gb, Dual Core, OSX Sierra
+
+## Prime Numbers (check on 10000000 [10 mln])
 * C++
 * Java
 * Go
 * Javascript
-  * nodejs
-    * Regular loop - 115ms
-    * Buffer       - 10ms
-    * TypedArray   - 11ms
-  * iojs
-    * Regular loop - 
-    * Buffer       - 
-    * TypedArray   - 
+  * nodejs (v.6.2.2)
+    * Regular loop - 0.275s
+    * Buffer       - 0.137s
+    * TypedArray   - 0.142s
 * Dart
+* Python - 0.250s
 
 
 ## Searching

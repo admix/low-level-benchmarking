@@ -57,11 +57,11 @@ function SieveTypedArray(maxNum) {
 }
 
 console.time("reg");
-SieveRegularArray(1000000);
+SieveRegularArray(10000000);
 console.timeEnd("reg");
 console.time("buffer");
-SieveBuffer(1000000);
+SieveBuffer(10000000);
 console.timeEnd("buffer");
 console.time("typed");
-SieveTypedArray(1000000)
+SieveTypedArray(10000000)
 console.timeEnd("typed");
