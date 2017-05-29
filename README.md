@@ -35,12 +35,19 @@ Showing time difference using different languages and different algorithms.
  * Java
  * Go
  * Javascript
- * python (inversion counters while using merge_sort)
+ * Python (inversion counters while using merge_sort)
    * inv_counter_1 - 0.6233 seconds
    * inv_counter_2 - 0.6566 seconds
  * Dart
 
-#### Bubble sort
+#### Bubble sort (10000 ints)
+======
+ * C++
+ * Java
+ * Go
+ * Javascript
+ * Python - 7.4s
+
 
 #### Insertion sort
 
