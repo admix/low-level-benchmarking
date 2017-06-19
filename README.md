@@ -30,7 +30,7 @@ Showing time difference using different languages and different algorithms.
 
 ## Sorting
 #### Merge Sort
-======
+
  * C++
  * Java
  * Go
@@ -40,8 +40,9 @@ Showing time difference using different languages and different algorithms.
    * inv_counter_2 - 0.6566 seconds
  * Dart
 
+## 
 #### Bubble sort (10000 ints)
-======
+
  * C++
  * Java
  * Go
