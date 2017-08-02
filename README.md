@@ -51,7 +51,3 @@ Showing time difference using different languages and different algorithms.
 
 
 #### Insertion sort 
-
-#### To be continued
-
-
